@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Events</title>
+  
+
+    <style>
+        #Box {
+            width: 600px;
+            height: 300px;
+            background-color: white;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="Box"><h1 id="h">My Theory</h1>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corrupti provident illum, exercitationem quis consequuntur laudantium, asperiores et numquam dignissimos nihil dicta eligendi facere! Quas aliquid maxime illum asperiores fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis id nostrum aut maxime molestiae dolor similique sunt, qui distinctio, optio quas cumque veniam, porro quia  voluptate sint? Vero, voluptate quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore adipisci officiis dolorem. Ipsam cumque nobis adipisci, illo ipsum, dolores ipsa, pariatur nihil iste doloremque suscipit? Blanditiis sequi sit molestiae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus adipisci rem quasi exercitationem, facere at perspiciatis quod consectetur nihil quia dolor incidunt nobis reiciendis distinctio eum modi! Voluptatum, aut aliquam?</p>
+    
+    <button id="btn">Slide Up</button>
+    <button id="btn2">Slide Down</button>
+    </div>
+        <script src="jquery-4.0.0.js"></script>
+    <script>
+
+         $(document).Ready( function(){
+            $('#btn').click(function(){
+                $('#p').slideUp();
+            })
+
+            
+         
+            $('#btn2').click(function(){
+                $('#p').slideDown();
+            })
+         })
+         
+  
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          //  $('#Box').click(function () {
+                 //  $('#Box').css('background-color', 'red');
+             //  });
+
+             //  $('#Box').dblclick(function () {
+                  // $('#Box').css('background-color', 'blue');
+             //  });
+
+             //  $('#Box').mouseenter(function () {
+                  // $('#Box').css('background-color', 'green');
+            //   });
+
+            //  $('#Box').mouseleave(function () {
+                //   $('#Box').css('background-color', 'yellow');
+           // });
+
+           // $('Body').keydown(function () {
+                //$('#Box').css('background-color', 'brown');
+          //  });
+
+            //$('Body').keyup(function () {
+              //  $('#Box').css('background-color', 'lightblue');
+            //});
+
+    
+    </script>
+
+</body>
+</html>
